@@ -1,0 +1,64 @@
+messages:
+  interfaceName: "&8Skill de "
+  prefixMessage: "&6&l[&r&1IggDrasilAttribute&r&6&l]&r"
+  incrementPointAttr: "&eVous avez gagner un point d'attribut."
+  actualPoint: "&9Point actuel"
+  notEnoughAttrPoint: "&eVous n avez pas suffisamment de point."
+  critMessage: "&eCritical !"
+  force:
+    itemAtrributeTo: "&9Attribuer un point en force"
+    bookAttributePoint: "&c&nPoint attribuer en force"
+    attributeOf: "&c&nAttribut de force"
+    incrementAttributeValue: "&eBravo vous venez monter une niveau en force"
+  vie:
+    itemAtrributeTo: "&9Attribuer un point en vie"
+    bookAttributePoint: "&c&nPoint attribuer en vie"
+    attributeOf: "&c&nAttribut de force"
+    incrementAttributeValue: "&eBravo vous venez monter une niveau en vie"
+  critique:
+    itemAtrributeTo: "&9Attribuer un point en critique"
+    bookAttributePoint: "&c&nPoint attribuer en critique"
+    attributeOf: "&c&nAttribut de force"
+    incrementAttributeValue: "&eBravo vous venez monter une niveau en critique"
+  head:
+    titleHead: "&c&nPoints a attribuer"
+    beforePlayerName: "&9Joueur &6"
+    beforeNumber: "&9Il vous reste "
+    afterNumber: " &9point a attribuer."
+  flint:
+    title: "&c&nReset complet"
+    lore:
+    - "&9Vous permet de recuperer tous vos points"
+    - "&9d attribut utilise en echange de quelque chose."
+    message: "&eVous venez de reset vos attributs"
+    alreadyReset: "&eVous avez deja vos attributs a la valeur minimale."
+  skillinfo:
+    forgetPlayer: "&eVeuillez preciser le nom d un joueur."
+    didntFindPlayer: "&eJoueur introuvable."
+    interfaceName: "&8Interface admin"
+    beforeNumber: "&9Il lui reste "
+    afterNumber: " &9point a attribuer."
+  addattrpoint:
+    forgetPlayer: "&eVeuillez preciser le nom d un joueur et le nombre de point."
+    forgetNumber: "&eVeuillez preciser le nombre de point."
+    didntFindPlayer: "&eJoueur introuvable."
+    errorNumber: "&eVeuillez preciser un nombre de point."
+    success: "&eAjout de point reussi."
+  resetskill:
+    forgetPlayer: "&eVeuillez preciser le nom d un joueur."
+    didntFindPlayer: "&eJoueur introuvable."
+    message: "&eVous venez de reset ces attributs."
+    messageByAdmin: "&eUn admin vien de reset vos point."
+    alreadyReset: "&eIl a deja ces attributs a la valeur minimale."
+  attrPoint:
+    forgetPlayer: "&eVeuillez preciser le nom d un joueur et le type d attribut."
+    forgetType: "&eVeuillez preciser le type d attribut."
+    didntFindPlayer: "&eJoueur introuvable."
+    errorType: "&eVeuillez preciser un type valide (force/vie/critique)."
+    success: "&eAjout d attribut reussi."
+    notEnoughAttrPoint: "&eCe joueur n a plus aucun point d attribut disponible."
+modifiers:
+  health: 2.0
+  damage: 1.0
+  critique: 0.25
+  critiqueDamageModifier: 2.5

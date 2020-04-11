@@ -1,0 +1,20 @@
+name: Iggdrasil Attribute Plugin
+version: 1.0
+author: augma
+main: com.augma.iggdrasilattrplugin.Main
+commands:
+  skill:
+    description: Permet d ouvrir l interface des skills
+    permission: iggdrasilattr.skill
+  skillinfo:
+    description: Command admin pour voir les stats d un joueur connecter
+    permission: iggdrasilattr.admin
+  addattrpoint:
+    description: Ajouter des points d attribut a un joueur
+    permission: iggdrasilattr.admin
+  resetskill:
+    description: Permet de reset les points de skill d'un jour
+    permission: iggdrasilattr.admin
+  attrpoint:
+    description: Permet d ajouter des points d attribut a une statistique d'un joueur suivant son nombre de point disponible
+    permission: iggdrasilattr.admin
